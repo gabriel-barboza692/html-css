@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            color: red;
+        }
+        a:visited{
+            color: rgb(238, 21, 238);
+        }
+        a:hover{
+            color: black;
+        }
+        .especial{
+            background-color: rgb(243, 243, 243);
+        }
+        .especial::after{
+            content: ' [Link]';
+        }
+        #especial > div{
+            display: none;
+        }
+        #especial:hover > div{
+            color: red;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li id = 'especial'>
+            <p><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22" target="_blank" class="especial">Repositório GitHub</a> <div>Conteúdo do GitHub do Guanabara</div></p>
+        </li>
+        <li>
+            <p><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22">Canal do Youtube</a></p>
+        </li>
+        <li>
+            <p><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22">Site do CursoemVídeo</a></p>
+        </li>
+    </ul>
+</body>
+</html>

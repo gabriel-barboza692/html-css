@@ -1,0 +1,126 @@
+
+@font-face {
+    font-family: tech;
+    src: url(fontes/idroid.otf);
+}
+@font-face {
+    font-family: tech2;
+    src: url(__MACOSX/fontes/);
+}
+body{
+    background-color:#8FED9E;
+}
+#header1{
+    height: auto;
+    background: linear-gradient(to top, #006400, #8FED9E);
+    font-family: tech2;
+    color: white;
+    margin: -10px -20px -20px -7px;
+    border: 0px 0px 0px 0px;
+    padding: 5px;
+    
+}
+#cap1{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
+    text-align: center;
+}
+header>p{
+    text-align: center;
+}
+
+nav>a{
+    color: rgb(134, 187, 134);
+    text-align: left;
+    padding-left: 15px;
+}
+
+main{
+    margin: 0px;
+    background-color: white;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    text-align: justify;
+    min-height: 100vh;
+    justify-content: center;
+    margin-top: 20px;
+    margin: 20px 40px;
+    
+}
+
+img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+    height: auto; /* Mantém a proporção da imagem */
+    align-items: center;
+    justify-content: center;
+  }
+
+main>h1{
+    font-family: tech;
+    color: darkgreen;
+}
+
+main>h2{
+    font-family: tech;
+    color: darkgreen;
+    background: linear-gradient(to right, #aaffaa, #ffffff);
+}
+video{
+    max-width: 100%;
+    height: auto;
+}
+
+.video{
+    position: relative;
+      width: 100%;
+      padding-bottom: 56.25%; /* 16:9 aspect ratio */
+      overflow: hidden;
+      position: absolute;
+      margin: auto;
+}
+
+footer{
+    background-color: white;
+    margin: 20px 40px;
+    outline: 10px solid white;
+    
+}
+
+
+footer>#fim{
+    
+    background-color:#8FED9E;
+    padding: 5px;
+    border-radius: 15px;
+    
+}
+#fim>h1{
+    color: white;
+   background-color: #006400;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: left;
+    margin-top: 0;
+}
+
+#lista1,
+#lista2 {
+  display: inline-block;
+  margin-right: 20px; /* Ajuste conforme necessário para criar espaço entre as listas */
+  text-decoration: underline;
+}
+
+#lista1
+::before{
+    content: '✔️';
+}
+
+#lista2
+::before{
+    content: '✔️';
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
