@@ -75,6 +75,7 @@ main{
     border-bottom-right-radius: 10px;
 }
 main h1{
+    padding-top: 10px;
     color: var(--cor5);
     font-family: var(--fonte-android);
     padding-left: 10px;
