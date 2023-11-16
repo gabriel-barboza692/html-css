@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Títuloheader';
+    src: url('PassionOne-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Sriracha';
+    src: url(Sriracha-Regular.ttf) format('truetype');
+}
+
+body{
+    margin: 0px;
+}
+
+header{
+    position: relative;
+    background-color: black;
+    height: 25vh;
+    padding: 0px;
+
+}
+
+header > h1{
+    font-family: "Títuloheader";
+    font-size:8vw;
+    min-width: 400px;
+    width: 98vw;
+    margin: 0px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+header > h2{
+    color: white;
+    position: absolute;
+    margin-top: 0px;
+    margin-top: 10px;
+    left: 47%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+    font-size: 2vh;
+    text-decoration: none;
+}
+header a{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+
+section{
+    font-family: "Sriracha";
+    margin-bottom: 60px;
+    font-size: 4.0vw;
+    padding-left: 30px;
+    
+}
+
+
+
+#section1{
+    margin-top: 90px;
+}
+
+#section2{
+    padding: 120px 0px 120px 30px;
+    margin: 0px;
+    background-image: url(background001.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    color: white; 
+    margin-bottom: 60px; 
+}
+
+#section2 > div{
+    background-color: rgba(0, 0, 0, 0.219);
+    display: inline-block;
+    padding: 15px; /* A largura será 50% da largura da viewport */
+   
+    
+}
+
+#section3{
+    padding: 120px 0px 120px 30px;
+    margin: 0px;
+    background-image: url(background002.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    color: white;  
+}
+
+#section3 > article{
+    background-color: rgba(0, 0, 0, 0.219);
+    width: 48vw; /* A largura será 50% da largura da viewport */
+}
+
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    height: 3vh;
+    text-align: center;
+    font-size: 1.9vh;
+}
