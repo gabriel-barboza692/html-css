@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Redes Sociais</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            background-image: url("imagens/fundo-madeira.jpg");
+        }
+        div{
+            position: relative;
+        }
+        div#phone{
+            display: block;
+            margin: auto;
+            
+            width: 400px;
+            
+        }
+        #telefone{
+            display: block;
+            margin: auto;
+            background-size: cover;
+        }
+
+        iframe{
+            background-color: aliceblue;
+            position: absolute;
+            display: block;
+            margin: auto;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 272px;
+            height: 477px;
+            overflow: hidden; /* Oculta a barra de rolagem */
+            border: none;
+            
+        }
+
+       div#links{
+        display: block;
+        padding-bottom: 10px;
+        width: 50px;
+        margin-left: 90vw;
+        position: absolute;
+        height: auto;
+       }
+       a{
+        margin-bottom: 100px;
+       }
+        a.logo > img{
+            border-radius: 50%;
+            height: 40px;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <div id="links">
+        <a class="logo" href="imagem-home.html" target="frame"><img src="imagens/logo-home.jpg" alt=""></a>
+        <a class="logo" href="imagem-youtube.html" target="frame"><img src="imagens/logo-youtube.jpg" alt=""></a>
+        <a class="logo" href="imagem-github.html" target="frame"><img src="imagens/logo-github.jpg" alt=""></a>
+        <a class="logo" href="imagem-instagram.html" target="frame"><img src="imagens/logo-instagram.jpg" alt=""></a>
+        <a class="logo" href="imagem-twitter.html" target="frame"><img src="imagens/logo-twitter.jpg" alt=""></a>
+        <a class="logo" href="imagem-facebook.html" target="frame"><img src="imagens/logo-facebook.jpg" alt=""></a>
+    </div>
+    <div id="phone">
+        <img id="telefone" src="imagens/frame-iphone.png" alt=" telefone">
+        <iframe src="imagem-home.html" frameborder="0" name="frame" ></iframe>
+    </div>
+    
+    
+</body>
+</html>
