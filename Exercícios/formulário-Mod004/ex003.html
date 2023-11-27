@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="idname">Nome:</label>
+                <input type="text" name="name" id="idname">
+            </p>
+            <p>
+                <label for="idemail">E-mail:</label>
+                <input type="email" autocomplete="email">
+            </p>
+            <p>
+                <label for="idtel">Telefone:</label>
+                <input type="tel" name="tel" id="idtel" placeholder="(xx)xxxx-xxxx" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend> Sexo</legend>
+            <input type="radio" name="sexo" id="idmas" value="M">
+            <label for="idmas">Masculino</label>
+            <input type="radio" name="sexo" id="idfem" value="F">
+            <label for="idfem">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="basquete" id="idbasquete">
+            <label for="idbasquete">Basquete</label><br>
+            <input type="checkbox" name="futebol" id="idfut">
+            <label for="idfut">Futebol</label><br>
+            <input type="checkbox" name="nat" id="idnat">
+            <label for="idnat">Natação</label><br>
+            <input type="checkbox" name="tenis" id="idtenis">
+            <label for="idtenis">Tênis</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Outras escolhas</legend>
+            <p>
+                <label for="idcolor">Cor</label>
+                <input type="color" name="" id="idcolor" value="#00ff00">
+            </p>
+            <p>
+                <label for="idsatisf">Nível de satisfação</label>
+                <input type="range" name="satisf" id="idsatisf" min="1" max="5" value="1">
+            </p>
+            <p>
+                <label for="idfoto">Foto do perfil</label>
+                <input type="file" name="foto" id="idfoto">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Select, Datalist e Textarea</legend>
+            <p>
+                <label for="idest">Estado:</label>
+                <select name="est" id="idest">
+                    <optgroup label="Sudeste">
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="MG">Minas Gerais</option>
+                    </optgroup>
+
+                    <optgroup label="Nordeste">
+                        <option value="MA">Maranhão</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p>
+                <label for="idprof">Profissão</label>
+                <input type="text" name="prof" id="idprof" list="lstprof">
+                <datalist id="lstprof">
+                    <option >Administrador</option>
+                    <option >Contabilista</option>
+                    <option >Desenvolvedor</option>
+                    <option >Professor</option>
+                </datalist>
+            </p>
+            <p>
+                <label for="idmsg">Mensagem</label> <br>
+                <textarea name="msg" id="idmsg" cols="30" rows="10"></textarea>
+            </p>
+        </fieldset>
+        <input type="submit" value="Enviar" name="" id="idenviar">
+        <input type="reset" name="" id="idreset">
+    </form>
+</body>
+</html>

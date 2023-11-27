@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Outro formulário</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="iusu">Usuário:</label>
+            <input type="text" name="usu" id="iusu" size="20" minlength="20" required placeholder="Nome de Usuário" autocomplete="username">
+        </p>
+        <p> 
+            <label for="isenha">Senha</label>
+            <input type="password" name="senha" id="isenha" autocomplete="current-password" maxlength="30" size="20" required minlength="8" placeholder="Minimum of 8 characters">
+        </p>
+        <p>
+            <input type="submit" name="Enviar" id="iEnviar">
+            <input type="reset" value="Limpar" name="Limpar" id="iLimpar">
+        </p>
+    </form>
+</body>
+</html>
