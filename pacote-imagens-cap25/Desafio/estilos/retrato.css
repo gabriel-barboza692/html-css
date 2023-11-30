@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media screen and (min-width:720px) {
+    body{
+        background-image: linear-gradient(to right, darkblue, royalblue, lightblue);
+    }
+
+    main{
+        width: 600px;
+        display: flex;
+    }
+
+    div#all{
+        width: 300px;
+        order: 1;
+    }
+
+    main div#topo{
+        width: 299px;
+        margin-top: 0px;
+        height: 330px;
+        margin: right;
+        align-items: left;
+        order: 2;
+        
+    }
+    
+    
+   
+}

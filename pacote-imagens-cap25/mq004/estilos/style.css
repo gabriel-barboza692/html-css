@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: lightgray;
+}
+header{
+    background-color: rgb(167, 167, 167);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+header h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#burguer{
+    background-color: rgb(48,48,48);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+#burguer:hover{
+    background-color: white;
+    color: black;
+}
+
+menu{
+    display: none;
+    background-color: rgb(87, 87, 87);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    border-top: 2px solid gray;
+}
+menu li{    
+    padding: 5px;
+    border: 2px solid gray;
+}
+menu  a{
+    background-color: rgb(87, 87, 87);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+}
+
+
+
+header a:hover{
+    background-color: darkgray;
+}
+menu ul{
+    list-style-type: none;
+}
+
+
+
+main{
+    width: 80vw;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
